@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+font-family: Arial, sans-serif;
+background: #f4f6f9;
+display: flex;
+justify-content: center;
+padding-top: 40px;
+}
+.box {
+background: #fff;
+padding: 20px;
+border-radius: 10px;
+width: 400px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+textarea {
+width: 100%;
+height: 150px;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 8px;
+resize: none;
+}
+#counter {
+margin-top: 10px;
+font-weight: bold;
+}
+.green { color: green; }
+.orange { color: #FF8C00; }
+.red { color: red; }
+    </style>
+</head>
+<body>
+    <div class="box">
+<h2>Live Character Counter</h2>
+<textarea id="textArea" maxlength="100" placeholder="Start typing..."></textarea>
+<p id="counter" class="green">Characters left: 100</p>
+</div>
+<script src="task2.js"></script>
+    
+</body>
+</html>
