@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    button {
+      padding: 8px 16px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    #products div {
+      padding: 8px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 300px;
+    }
+
+    input {
+      padding: 8px;
+      width: 250px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+     <h2>Interactive Product Filter</h2>
+
+ 
+  <input type="text" id="searchBox" placeholder="Search product...">
+
+
+  <div>
+    <button onclick="filterProducts('all')">All</button>
+    <button onclick="filterProducts('electronics')">Electronics</button>
+    <button onclick="filterProducts('clothing')">Clothing</button>
+  </div>
+
+ 
+  <div id="products"></div>
+</body>
+</html>
